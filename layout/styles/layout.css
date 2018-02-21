@@ -361,3 +361,9 @@ table a, #comments a{background-color:inherit;}
 	text-transform: uppercase;
 	text-align: center;
 }
+
+.imagen_index{
+	background-image:url('../../images/bosque.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
