@@ -354,3 +354,10 @@ table a, #comments a{background-color:inherit;}
 .menu_fondo{
 	background-image: url('../../images/stucco.jpg');
 }
+
+.titulo_articulo{
+	background-color: rgba(147,192,197,.8);
+	font-size: 22px;
+	text-transform: uppercase;
+	text-align: center;
+}
