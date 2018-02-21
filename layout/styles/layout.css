@@ -35,7 +35,7 @@ File: Layout CSS
 
 /* Top Bar
 --------------------------------------------------------------------------------------------------------------- */
-#topbar{padding:30px 0;}
+#topbar{padding:10px 0;}
 
 #topbar form{display:block; position:relative; width:100%; max-width:320px;}
 #topbar input, #topbar button{display:block; height:30px; border:none;}
@@ -353,6 +353,15 @@ table a, #comments a{background-color:inherit;}
 
 .menu_fondo{
 	background-image: url('../../images/stucco.jpg');
+}
+
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+//	max-width:1000px;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
 }
 
 .titulo_articulo{

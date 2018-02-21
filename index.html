@@ -226,5 +226,19 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script>
+$(document).ready(function(){
+  var altura = $('.menu_fondo').offset().top;
+  
+  $(window).on('scroll', function(){
+    if ( $(window).scrollTop() > altura ){
+      $('.menu_fondo').addClass('menu-fixed');
+    } else {
+      $('.menu_fondo').removeClass('menu-fixed');
+    }
+  });
+ 
+});
+</script>
 </body>
 </html>
