@@ -54,7 +54,7 @@ File: Layout CSS
 
 /* CTA - Call To Action
 --------------------------------------------------------------------------------------------------------------- */
-#cta{padding:50px 0;}
+#cta{padding:20px 0;}
 
 #cta .heading{margin-bottom:0;}
 #cta p{margin:0; padding:0;}
@@ -63,7 +63,7 @@ File: Layout CSS
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
-.container{padding:80px 0;}
+.container{padding:20px 0;}
 
 /* Content */
 .container .content{}

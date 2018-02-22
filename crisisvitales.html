@@ -22,12 +22,14 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
       <h1><a href="../index.html">Josefina González</a></h1>
+      <p>Psicóloga sanitaria
+      Colegiada M-27222</p>
     </div>
     <div class="fl_right">
       <ul class="nospace inline">
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Terapia individual</a></li>
+        <li><a href="#">Terapia pareja</a></li>
+        <li><a href="#">Terapia familia</a></li>
       </ul>
     </div>
     <!-- ################################################################################################ -->
@@ -49,7 +51,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <li class=""><a href="contacto.html">Contacto</a></li>
         <li><a class="drop" href="#">Artículos</a>
           <ul>
-            <li><a href="pages/gallery.html">Gallery</a></li>
+            <li><a href="./apego.html">Teoría del apego</a></li>
             <li><a href="pages/full-width.html">Full Width</a></li>
             <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
             <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
@@ -299,5 +301,20 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="./layout/scripts/jquery.min.js"></script>
 <script src="./layout/scripts/jquery.backtotop.js"></script>
 <script src="./layout/scripts/jquery.mobilemenu.js"></script>
+
+<script>
+$(document).ready(function(){
+  var altura = $('.menu_fondo').offset().top;
+  
+  $(window).on('scroll', function(){
+    if ( $(window).scrollTop() > altura ){
+      $('.menu_fondo').addClass('menu-fixed');
+    } else {
+      $('.menu_fondo').removeClass('menu-fixed');
+    }
+  });
+});
+</script>
+
 </body>
 </html>
