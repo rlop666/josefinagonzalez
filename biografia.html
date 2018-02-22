@@ -90,22 +90,23 @@ Licence URI: http://www.os-templates.com/template-terms
       <!-- ################################################################################################ -->
       <p class="titulo_articulo">Biografía humana</p> 
       
-      <p>En la Biografía Humana:</p>
+       <p>Las personas tenemos por lo general una idea hecha de quienes somos, pero en realidad esta visión de nosotros mismos está sesgada o contaminada por las interpretaciones, visión o influencia de personas importantes de nuestra vida. Esto ha dejado mensajes en nuestro cerebro que han influido e influyen en quienes somos hoy, sobre todo, los que nos dejaron en infancia y adolescencia. Por ejemplo, la evidencia científica reconoce la influencia entre el tipo de Apego recibido y estilos de afrontamiento en adultez.</p>
+       <p>De estos mensajes, algunos han conformado nuestra realidad de forma funcional, pero otros han construido partes de nosotros mismos que no son adaptativas y también en algunos ámbitos nos han limitado.</p>
+       
+       <p>La Biografía Humana es un método de conocimiento con cierta profundidad de la persona para encontrar esos mensajes y hacer un mapa de la persona eliminando los sesgos e interpretaciones de otros. Pero….en realidad nosotros somos quienes somos, con esos mensajes también. La biografía humana nos los muestra, para que nosotros podamos decidir cuales nos interesa seguir manteniendo y cuáles no.</p>
+       
+       <span id="mostrar" class="btn" href="#" style="width:200px">Saber más</span>
 
- <p>Las personas tenemos por lo general una idea hecha de quienes somos, pero en realidad esta visión de nosotros mismos está sesgada o contaminada por las interpretaciones, visión o influencia de personas importantes de nuestra vida. Esto ha dejado mensajes en nuestro cerebro que han influido e influyen en quienes somos hoy, sobre todo, los que nos dejaron en infancia y adolescencia. Por ejemplo, la evidencia científica reconoce la influencia entre el tipo de Apego recibido y estilos de afrontamiento en adultez.</p>
- <p>De estos mensajes, algunos han conformado nuestra realidad de forma funcional, pero otros han construido partes de nosotros mismos que no son adaptativas y también en algunos ámbitos nos han limitado.</p>
- 
- <p>La Biografía Humana es un método de conocimiento con cierta profundidad de la persona para encontrar esos mensajes y hacer un mapa de la persona eliminando los sesgos e interpretaciones de otros. Pero….en realidad nosotros somos quienes somos, con esos mensajes también. La biografía humana nos los muestra, para que nosotros podamos decidir cuales nos interesa seguir manteniendo y cuáles no.</p>
- 
- 
- <p>He hecho 5 años de formación presencia en Barcelona y online con Buenos Aires en la Escuela de Laura Gutman de construcción de la Biografía humana, que ya no existen por cierto.</p>
- 
- <p>Consiste principalmente en hacer preguntas adecuadas buscando la verdadera realidad vivida por la persona.
-Laura Gutman es la creadora de la BH. Ella hizo un descubrimiento hace muchos años mientras trataba a personas con su equipo. Las personas le contaban sus historias, quienes eran y lo que ellas pensaban que les sucedía, pero después de profundizar resultaba que esas historias estaban sesgadas, la consecuencia es que la persona tenía una idea distorsionada de si misma, con cada persona la distorsión era mayor o menor.</p>
- <p>¿Por qué las personas tenemos distorsionado en mayor o menor grado nuestras creencias acerca de quiénes somos y porqué somos así? Por la influencia de personas que han compartido nuestra vida y son relevantes, principalmente nuestras figuras de apego.
-Laura Gutman descubrió que daba igual si la persona había sufridos abusos, negligencia o una fuerte disfuncionalidad, si las personas adultas del entorno del niño o adolescente verbalizaban o dibujaban otra realidad en torno a la persona, en la psique de la persona podría permanecer el recuerdo de la interpretación de esas personas relevantes por encima del propio recuerdo. Esto sucede en mayor o menor intensidad dependiendo de cada uno.</p>
- <p>En las sesiones se muestran hechos relevantes, normalmente ocultos para la psique de la persona o que ésta no les ha dado importancia. Según las respuestas a estas preguntas se formulan otras y así se va avanzando en el descubrimiento además de averiguar lo que sucede en el entorno familiar sobre estos hechos.</p>
- <p>Mediante las preguntas se averigua el sistema de valores de la familia entorno de la persona y se realiza un mapa completo de la estructura de la persona, personalidad, puntos fuertes, débiles, zonas de conflicto, zonas a desarrollar, etc.</p>
+       <div id="sabermas" style="display:none;">
+         <p>He hecho 5 años de formación presencia en Barcelona y online con Buenos Aires en la Escuela de Laura Gutman de construcción de la Biografía humana, que ya no existen por cierto.</p>
+         
+         <p>Consiste principalmente en hacer preguntas adecuadas buscando la verdadera realidad vivida por la persona.
+        Laura Gutman es la creadora de la BH. Ella hizo un descubrimiento hace muchos años mientras trataba a personas con su equipo. Las personas le contaban sus historias, quienes eran y lo que ellas pensaban que les sucedía, pero después de profundizar resultaba que esas historias estaban sesgadas, la consecuencia es que la persona tenía una idea distorsionada de si misma, con cada persona la distorsión era mayor o menor.</p>
+         <p>¿Por qué las personas tenemos distorsionado en mayor o menor grado nuestras creencias acerca de quiénes somos y porqué somos así? Por la influencia de personas que han compartido nuestra vida y son relevantes, principalmente nuestras figuras de apego.
+        Laura Gutman descubrió que daba igual si la persona había sufridos abusos, negligencia o una fuerte disfuncionalidad, si las personas adultas del entorno del niño o adolescente verbalizaban o dibujaban otra realidad en torno a la persona, en la psique de la persona podría permanecer el recuerdo de la interpretación de esas personas relevantes por encima del propio recuerdo. Esto sucede en mayor o menor intensidad dependiendo de cada uno.</p>
+         <p>En las sesiones se muestran hechos relevantes, normalmente ocultos para la psique de la persona o que ésta no les ha dado importancia. Según las respuestas a estas preguntas se formulan otras y así se va avanzando en el descubrimiento además de averiguar lo que sucede en el entorno familiar sobre estos hechos.</p>
+         <p>Mediante las preguntas se averigua el sistema de valores de la familia entorno de la persona y se realiza un mapa completo de la estructura de la persona, personalidad, puntos fuertes, débiles, zonas de conflicto, zonas a desarrollar, etc.</p>
+      </div>
 
 
       <!-- ################################################################################################ -->
@@ -267,6 +268,11 @@ $(document).ready(function(){
       $('.menu_fondo').removeClass('menu-fixed');
     }
   });
+
+    $("#mostrar").click(function(){
+        $("#sabermas").toggle(300);
+    });
+  
 });
 </script>
 
