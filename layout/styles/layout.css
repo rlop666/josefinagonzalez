@@ -46,7 +46,7 @@ File: Layout CSS
 
 /* Intro
 --------------------------------------------------------------------------------------------------------------- */
-#intro{padding:220px 0 100px;}
+#intro{padding:100px 0 100px;}
 
 #intro .heading{font-size:80px; text-transform:uppercase; letter-spacing:2px;}
 #intro .btn{padding:20px 30px; font-size:1.4rem; font-weight:normal;}
