@@ -46,7 +46,7 @@ File: Layout CSS
 
 /* Intro
 --------------------------------------------------------------------------------------------------------------- */
-#intro{padding:50px 0 50px;}
+#intro{padding:130px 0 130px;}
 
 #intro .heading{font-size:80px; text-transform:uppercase; letter-spacing:2px;}
 #intro .btn{padding:20px 30px; font-size:1.4rem; font-weight:normal;}
@@ -227,8 +227,8 @@ label span{color:#FF0000; background-color:inherit;}
 .row0, .row0 a{color:#242424; background-color:#FFFFFF;}
 .row0{border-color:#D7D7D7;}
 .row1, .row1 a{color:#242424; background-color:#FFFFFF;}
-.row2{color:#242424; background-color:#F7F7F7; border-color:#FFFFFF;}
-.row3{color:#242424; background-color:#EBEBEB; border-color:#FFFFFF;}
+.row2{color:#888; background-color:#FFFFFF; border-color:#FFFFFF;}
+.row3{color:#888; background-color:#FFFFFF; border-color:#FFFFFF;}
 .row4{color:#FFFFFF; background-color:inherit;}
 .row5{color:#888888; background-color:#282828;}
 .row6, .row6 a{color:#888888; background-color:#2F2F2F;}
@@ -365,7 +365,7 @@ table a, #comments a{background-color:inherit;}
 }
 
 .titulo_articulo{
-	background-color: rgba(147,192,197,.8);
+	color: rgba(147,192,197,.8);
 	font-size: 22px;
 	text-transform: uppercase;
 	text-align: center;
@@ -381,4 +381,28 @@ table a, #comments a{background-color:inherit;}
    color: #fff;
    background-color: rgba(111,111,111,0.5);
    font-size: 20px;
+}
+
+.btn_big{
+	color: #FFFFFF;
+    padding: 12px 30px;
+	font-size:2.4rem; 
+	font-weight:normal;
+	background-color: #93C0C5;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.texto_grande{
+	font-size: 2.4em;
+}
+
+.texto_azul{
+	font-size: 1em;
+	color: #93C0C5;
+}
+
+.texto_grande_azul{
+	font-size: 1.5em;
+	color: #93C0C5;
 }
