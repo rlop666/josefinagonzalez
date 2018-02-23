@@ -394,7 +394,8 @@ table a, #comments a{background-color:inherit;}
 }
 
 .texto_grande{
-	font-size: 2.4em;
+	font-size: 1.5em;
+	text-align: center;
 }
 
 .texto_azul{
