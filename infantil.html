@@ -158,14 +158,14 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="./layout/scripts/jquery.backtotop.js"></script>
 <script src="./layout/scripts/jquery.mobilemenu.js"></script>
 <script>
-
+  w3.includeHTML();
 </script>
 <script>
 $(document).ready(function(){
-  w3.includeHTML();
-  var altura = $('.menu_fondo').offset().top;
+
   
   $(window).on('scroll', function(){
+    var altura = $('.menu_fondo').offset().top;
     if ( $(window).scrollTop() > altura ){
       $('.menu_fondo').addClass('menu-fixed');
     } else {
