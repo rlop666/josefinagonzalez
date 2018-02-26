@@ -50,48 +50,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- MENU -->
-<div class="wrapper menu_fondo">
-  <div id="topbar" class="clear"> 
-    <!-- ################################################################################################ -->
-    <nav id="mainav" class="fl_left">
-      <ul class="clear">
-        <li class=""><a href="index.html">Home</a></li>
-        <li><a class="drop" href="servicios.html">Servicios</a>
-          <ul>
-            <li><a href="#">Adultos</a></li>
-            <li><a class="drop" href="#">Infancia y adolescencia</a>
-              <ul>
-                <li><a href="infantil.html">Terapia infantil y adolescentes</a></li>
-                <li><a href="asesoramientopadres.html">Asesoramiento a padres</a></li>
-              </ul>
-            </li>
-            <li><a class="drop" href="familia.html">Familia</a></li>
-            <li><a class="drop" href="perinatal.html">Perinatal</a>
-              <ul>
-                <li><a href="asesoramientopadres.html">Asesoramiento a padres</a></li>
-                <li><a href="preparacionmaternidad.html">Preparación a la maternidad y paternidad</a></li>
-                <li><a href="perinatal.html">Psicología perinatal</a></li>
-              </ul>
-            </li>
-            <li><a href="pareja.html">Pareja</a></li>
-            <li><a href="#">Online</a></li>
-          </ul>
-        </li>
-        <li class=""><a href="biografia.html">Biografía humana</a></li>
-        <li class=""><a href="perinatal.html">Psicología perinatal</a></li>
-        <li class=""><a href="quien.html">Quién soy</a></li>
-        <li class=""><a href="contacto.html">Contacto</a></li>
-        <li><a class="drop" href="#">Artículos</a>
-          <ul>
-            <li><a href="./apego.html">Teoría del apego</a></li>
-          </ul>
-        </li>
-        <li class=""><a href="recursos.html">Recursos</a></li>
-      </ul>
-    </nav>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
+<div w3-include-html="./menu.html"></div>
 <!-- FIN MENU -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -241,65 +200,11 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row5">
-  <footer id="footer" class="clear"> 
-    <!-- ################################################################################################ -->
-    <div class="one_quarter first">
-      <h6 class="title">Josefina González</h6>
-      <address class="btmspace-15">
-      Psicóloga sanitaria<br>
-      Colegiada M-27222<br>
-      </address>
-      <ul class="nospace">
-        <li class="btmspace-10"><span class="fa fa-phone"></span> 670064084</li>
-        <li><span class="fa fa-envelope-o"></span> info@josefinagonzalez.es</li>
-      </ul>
-    </div>
-    <div class="one_quarter">
-      <h6 class="title">Enlaces</h6>
-      <ul class="nospace linklist">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="biografia.html">Biografía humana</a></li>
-        <li><a href="perinatal.html">Psicología perinatal</a></li>
-        <li><a href="quien.html">Quién soy</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-        <li><a href="recursos.html">Recursos</a></li>
-      </ul>
-    </div>
-    <!--div class="one_quarter">
-      <h6 class="title">From The Blog</h6>
-      <article>
-        <h2 class="nospace"><a href="#">Lorem ipsum dolor</a></h2>
-        <time class="smallfont" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-        <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed.</p>
-      </article>
-    </div>
-    <div class="one_quarter">
-      <h6 class="title">Grab Our Newsletter</h6>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
-    </div-->
-    <!-- ################################################################################################ -->
-  </footer>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row6">
-  <div id="copyright" class="clear"> 
-    <!-- ################################################################################################ -->
-    <!--p class="fl_left">Copyright &copy; 2015 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p-->
-    <!-- ################################################################################################ -->
-  </div>
-</div>
+
+<!-- FOOTER -->
+<div w3-include-html="./footer.html"></div>
+<!-- FIN FOOTER -->
+
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -308,19 +213,24 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="./layout/scripts/jquery.min.js"></script>
 <script src="./layout/scripts/jquery.backtotop.js"></script>
 <script src="./layout/scripts/jquery.mobilemenu.js"></script>
-
+<script src="layout/scripts/w3.js"></script>
 <script>
-$(document).ready(function(){
-  var altura = $('.menu_fondo').offset().top;
-  
-  $(window).on('scroll', function(){
-    if ( $(window).scrollTop() > altura ){
-      $('.menu_fondo').addClass('menu-fixed');
-    } else {
-      $('.menu_fondo').removeClass('menu-fixed');
-    }
-  });
-});
+  w3.includeHTML(llamaReady);
+</script>
+<script>
+//$(document).ready(function(){
+  function llamaReady{
+    var altura = $('.menu_fondo').offset().top;
+    
+    $(window).on('scroll', function(){
+      if ( $(window).scrollTop() > altura ){
+        $('.menu_fondo').addClass('menu-fixed');
+      } else {
+        $('.menu_fondo').removeClass('menu-fixed');
+      }
+    });
+  }
+//});
 </script>
 
 </body>
