@@ -400,6 +400,10 @@ table a, #comments a{background-color:inherit;}
 	text-align: center;
 }
 
+.alineacion_izquierda{
+	text-align: left;	
+}
+
 .texto_azul{
 	font-size: 1em;
 	color: #93C0C5;
