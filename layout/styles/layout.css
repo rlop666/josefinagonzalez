@@ -260,7 +260,7 @@ label span{color:#FF0000; background-color:inherit;}
 /* Navigation */
 #mainav li a{color:inherit;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#93C0C5; background-color:inherit;}
-#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(147,192,197,.6); border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#93C0C5;}
 #mainav form select{border-color:#D7D7D7;}
 
