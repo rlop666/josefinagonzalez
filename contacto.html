@@ -27,71 +27,14 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row0">
-  <header id="header" class="clear"> 
-    <!-- ################################################################################################ -->
-    <div id="logo" class="fl_left">
-      <h1><a href="index.html">Josefina González</a></h1>
-      <p>Psicóloga sanitaria
-      Colegiada M-27222</p>
-    </div>
-    <div class="fl_right">
-      <ul class="nospace inline">
-        <li><a href="#">Terapia individual</a></li>
-        <li><a href="pareja.html">Terapia pareja</a></li>
-        <li><a href="familia.html">Terapia familia</a></li>
-        <li><a href="#">Terapia online</a></li>
-      </ul>
-    </div>
-    <!-- ################################################################################################ -->
-  </header>
-</div>
+<!-- CABECERA -->
+<div w3-include-html="./cabecera.html"></div>
+<!-- FIN CABECERA -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- MENU -->
-<div class="wrapper menu_fondo">
-  <div id="topbar" class="clear"> 
-    <!-- ################################################################################################ -->
-    <nav id="mainav" class="fl_left">
-      <ul class="clear">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a class="drop" href="servicios.html">Servicios</a>
-          <ul>
-            <li><a href="#">Adultos</a></li>
-            <li><a class="drop" href="#">Infancia y adolescencia</a>
-              <ul>
-                <li><a href="infantil.html">Terapia infantil y adolescentes</a></li>
-                <li><a href="asesoramientopadres.html">Asesoramiento a padres</a></li>
-              </ul>
-            </li>
-            <li><a class="drop" href="familia.html">Familia</a></li>
-            <li><a class="drop" href="perinatal.html">Perinatal</a>
-              <ul>
-                <li><a href="asesoramientopadres.html">Asesoramiento a padres</a></li>
-                <li><a href="preparacionmaternidad.html">Preparación a la maternidad y paternidad</a></li>
-                <li><a href="perinatal.html">Psicología perinatal</a></li>
-              </ul>
-            </li>
-            <li><a href="pareja.html">Pareja</a></li>
-            <li><a href="#">Online</a></li>
-          </ul>
-        </li>
-        <li class=""><a href="biografia.html">Biografía humana</a></li>
-        <li class=""><a href="perinatal.html">Psicología perinatal</a></li>
-        <li class=""><a href="quien.html">Quién soy</a></li>
-        <li class=""><a href="contacto.html">Contacto</a></li>
-        <li><a class="drop" href="#">Artículos</a>
-          <ul>
-            <li><a href="./apego.html">Teoría del apego</a></li>
-          </ul>
-        </li>
-        <li class=""><a href="recursos.html">Recursos</a></li>
-      </ul>
-    </nav>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
+<div w3-include-html="./menu.html"></div>
 <!-- FIN MENU -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -172,6 +115,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <script>
 //$(document).ready(function(){
   function llamaReady(){
+    menu_movil();
     var altura = $('.menu_fondo').offset().top;
     
     $(window).on('scroll', function(){
