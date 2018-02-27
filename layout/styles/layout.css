@@ -428,3 +428,7 @@ table a, #comments a{background-color:inherit;}
 	background-repeat: no-repeat;
 	background-position: "left";
 }
+
+.sombra_arriba{
+	box-shadow: 0px 0px 14px 3px rgba(0,0,0,.5);
+}
