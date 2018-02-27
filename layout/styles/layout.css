@@ -92,7 +92,7 @@ File: Layout CSS
 
 /* Footer CTA / Info
 --------------------------------------------------------------------------------------------------------------- */
-#footercta{padding:50px 0; text-align:center;}
+#footercta{padding:20px 0; text-align:center;}
 #footercta .heading{text-transform:uppercase;}
 #footercta .heading, #footercta p{margin-bottom:15px;}
 
