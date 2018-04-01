@@ -14,6 +14,10 @@ function functionReady(){
     format: "multitoggle"
   });
 
-  var x = document.lastModified;
-  document.getElementById("fechamodificacion").innerHTML = "Ultima modificación: " + x;
+  var update = new Date(document.lastModified);
+  update = new Date(document.lastModified)
+  theMonth = update.getMonth() + 1
+  theDate = update.getDate()
+  theYear = update.getFullYear()
+  document.getElementById("fechamodificacion").innerHTML = "Ultima modificación: " + theDate + "/" + theMonth + "/" + theYear;
 }
