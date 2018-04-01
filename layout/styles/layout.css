@@ -393,6 +393,7 @@ table a, #comments a{background-color:inherit;}
 	background-color: #93C0C5;
 	text-align: center;
 	border-radius: 8px;
+	display:table;
 }
 
 .texto_grande{
