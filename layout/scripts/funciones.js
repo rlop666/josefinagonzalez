@@ -20,6 +20,6 @@ function functionReady(){
   theDate = update.getDate();
   theYear = update.getFullYear();
   theHour = update.getHours();
-  theMinutes = (d.getMinutes()<10?'0':'') + d.getMinutes();
+  theMinutes = (update.getMinutes()<10?'0':'') + update.getMinutes();
   document.getElementById("fechamodificacion").innerHTML = "Ultima modificación: " + theDate + "/" + theMonth + "/" + theYear + " " + theHour + ":" + theMinutes;
 }
