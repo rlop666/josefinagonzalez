@@ -256,6 +256,7 @@
   border-top: 2px solid #888888;
   border-bottom: 2px solid #888888;
   content: '';
+  box-sizing: content-box;
 }
 #cssmenu.small-screen #menu-button:before {
   position: absolute;
