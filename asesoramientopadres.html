@@ -125,20 +125,13 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="./layout/scripts/jquery.backtotop.js"></script>
 <script src="./layout/scripts/jquery.mobilemenu.js"></script>
 <script src="layout/scripts/w3.js"></script>
+<script src="layout/scripts/menumaker.js"></script>
+<script src="layout/scripts/funciones.js"></script>
 
 <script>
 //$(document).ready(function(){
   function llamaReady(){
-    menu_movil();
-    var altura = $('.menu_fondo').offset().top;
-    
-    $(window).on('scroll', function(){
-      if ( $(window).scrollTop() > altura ){
-        $('.menu_fondo').addClass('menu-fixed');
-      } else {
-        $('.menu_fondo').removeClass('menu-fixed');
-      }
-    });
+    functionReady();
   }
 //});
 </script>
