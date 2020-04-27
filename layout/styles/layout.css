@@ -400,6 +400,7 @@ table a, #comments a{background-color:inherit;}
 .texto_grande{
 	font-size: 1.5em;
 	text-align: center;
+	line-height: 100%;
 }
 
 .alineacion_izquierda{
