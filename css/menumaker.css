@@ -29,8 +29,8 @@
 }
 #cssmenu {
   font-family: Montserrat, sans-serif;
-  background: #333333;
-  background-image: url(../../images/stucco.jpg);
+  background: #efefef;
+--  background-image: url(../../images/stucco.jpg);
 }
 #cssmenu > ul > li {
   float: left;
@@ -59,7 +59,7 @@
   text-transform: uppercase;
 }
 #cssmenu > ul > li:hover > a {
-  color: #ffffff;
+  color: #333333;
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right: 30px;
@@ -132,10 +132,10 @@
   width: 250px;
   font-size: 12px;
   text-decoration: none;
-  color: #ffffff;
+  color: #444;
   font-weight: 400;
-  background: #333333;
-  background-color: rgba(147,192,197,.8);
+  background: #efefef;
+  background-color: rgba(229,229,229,.9);
 }
 #cssmenu ul ul li:last-child > a,
 #cssmenu ul ul li.last-item > a {
@@ -143,7 +143,7 @@
 }
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li a:hover {
-  color: #ffffff;
+  color: #111;
 }
 #cssmenu ul ul li.has-sub > a:after {
   position: absolute;
