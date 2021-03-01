@@ -380,9 +380,9 @@ table a, #comments a{background-color:inherit;}
 
 .caja{
    color: #fff;
-   background-color: rgba(111,111,111,0.5);
+   background-color: rgba(111,111,111,0.25);
    font-size: 20px;
-   padding:20px 0 40px;
+   padding:10px 0 20px;
 }
 
 .btn_big{
