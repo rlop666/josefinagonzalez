@@ -29,7 +29,7 @@
 }
 #cssmenu {
   font-family: Montserrat, sans-serif;
-  background: #efefef;
+  background: #93C0C5;
 --  background-image: url(../../images/stucco.jpg);
 }
 #cssmenu > ul > li {
@@ -54,7 +54,7 @@
   font-size: 12px;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #888888;
+  color: #333333;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -71,7 +71,7 @@
   width: 8px;
   height: 2px;
   display: block;
-  background: #888888;
+  background: #333333;
   content: '';
 }
 #cssmenu > ul > li.has-sub > a:before {
@@ -81,7 +81,7 @@
   display: block;
   width: 2px;
   height: 8px;
-  background: #888888;
+  background: #333333;
   content: '';
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
@@ -152,7 +152,7 @@
   width: 8px;
   height: 2px;
   display: block;
-  background: #dddddd;
+  background: #888888;
   content: '';
 }
 #cssmenu.align-right ul ul li.has-sub > a:after {
@@ -166,7 +166,7 @@
   display: block;
   width: 2px;
   height: 8px;
-  background: #dddddd;
+  background: #888888;
   content: '';
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
