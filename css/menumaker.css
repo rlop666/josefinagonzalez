@@ -215,7 +215,7 @@
   padding-left: 35px;
 }
 #cssmenu.small-screen ul ul li a {
-  color: #888888;
+  color: #333333;
   background: none;
 }
 #cssmenu.small-screen ul ul li:hover > a,
