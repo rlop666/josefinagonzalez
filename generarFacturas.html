@@ -119,7 +119,6 @@
 
             filteredData.forEach(function (row) {
               var rowData = row.slice(3, 7); // Tomar solo las columnas necesarias (FECHA, DNI, NOMBRE, IMPORTE)
-              alert(row);
               var tableRow = rowData.map(function (data) {
                 if (isNaN(data)) {
                   return { text: data, alignment:"center" };
