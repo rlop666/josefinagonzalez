@@ -1,109 +1,30 @@
-<link rel="stylesheet" type="text/css" href="css/menumaker.css">
-<script src="layout/scripts/menumaker.js"></script>
-	
-<div id="cssmenu" class="elmenu">
-	<ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="#">Servicios</a>
-      <ul>
-        <li><a href="adultos.html">Adultos</a></li>
-        <!--li><a href="#">Infancia y adolescencia</a>
-          <ul-->
-            <!--li style="position:relative; border:1"><a href="infantil.html">Terapia infantil y adolescentes</a></li-->
-            <!--li style="position:relative;"><a href="asesoramientopadres.html">Asesoramiento a padres</a></li>
-            <li><a href="#">Alimentación infantil temprana</a>
-              <ul>
-                <li><a href="nociones.html">Nociones básicas</a></li>
-                <li><a href="pautas.html">Las pautas</a></li>
-                <li><a href="pauta6.html">La pauta 6</a></li>
-                <li><a href="azucar.html">El azúcar</a></li>
-                <li><a href="preguntas.html">Preguntas</a></li>
-                <li><a href="Seminario de conducta alimentaria.pdf" target="_new">Seminario de Conducta alimentaria para escuelas 2-5</a></li>
-              </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="services.html">Servicios</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="perinatal.html">Psicología perinatal</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="biografia.html">Biografía humana</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="quien.html">Quién soy</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="contacto.html">Contacto</a>
             </li>
           </ul>
-      </li-->
-        <li><a href="familia.html">Familia</a></li>
-        <li><a href="perinatal.html">Perinatal</a>
-          <ul>
-            <li><a href="perinatal.html">Psicología perinatal</a></li>
-	    <li><a href="fertilidad.html">Problemas de fertilidad</a></li>
-	    <li><a href="dinamicagrupal.html">Asesoramiento a padres. Dinámica grupal</a></li>
-            <!--li><a href="preparacionmaternidad.html">Preparación a la maternidad y paternidad</a></li-->
-          </ul>
-        </li>
-        <!--li><a href="pareja.html">Pareja</a></li-->
-        <li><a href="#">Artículos</a>
-	      <ul>
-	        <li><a href="./apego.html">Teoría del apego</a></li>
-	        <li><a href="./tocperinatal.html">Cuando la mamá piensa en hacer daño a su bebé</a></li>
-		<!--li><a href="https://aefena.es/el-profesional-nos-habla/procesos-psicologicos-en-la-busqueda-del-embarazo/" target="_blank">Procesos Psicológicos En La Búsqueda Del Embarazo</a></li-->
-	      </ul>
-	    </li>
-	    <li><a href="recursos.html">Recursos</a></li>
-      </ul>
-    </li>
-    <li><a href="perinatal.html">Psicología perinatal</a>
-	<ul>
-		<li><a href="perinatal.html">Psicología perinatal</a></li>
-		<li><a href="fertilidad.html">Problemas de fertilidad</a></li>
-		<li><a href="dinamicagrupal.html">Asesoramiento a padres. Dinámica grupal</a></li>
-	</ul>
-    </li>
-    <!--li><a href="pareja.html">Pareja</a></li-->
-    <!--li><a href="insomnio.html">Insomnio</a></li-->
-    <li><a href="biografia.html">Biografía humana</a></li>
-    <li><a href="quien.html">Quién soy</a></li>
-    <li><a href="contacto.html">Contacto</a></li>
-	</ul>
-</div>
-
-
-<!--//BLOQUE COOKIES-->
-<div id="barraaceptacion" style="display: none;">
-    <div class="inner">
-        Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real 
-        Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.
-        <a href="javascript:void(0);" class="ok" onclick="PonerCookie();"><b>OK</b></a> | 
-        <a href="politicacookies.html" target="_blank" class="info">Más información</a>
-    </div>
-</div>
-<!--//FIN BLOQUE COOKIES-->
-<style>
-	#barraaceptacion {
-    display:none;
-    position:fixed;
-    left:0px;
-    right:0px;
-    bottom:0px;
-    padding-bottom:20px;
-    width:100%;
-    text-align:center;
-    min-height:20%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color:#fff;
-    z-index:99999;
-    line-height: 1em;
-}
- 
-.inner {
-    width:100%;
-    position:absolute;
-    padding-left:5px;
-    font-family:verdana;
-    font-size:12px;
-    top:30%;
-}
- 
-.inner a.ok {
-    padding:4px;
-    color:#00ff2e;
-    text-decoration:none;
-}
- 
-.inner a.info {
-    padding-left:5px;
-    text-decoration:none;
-    color:#faff00;
-}
-</style>
+        </div>
+      </div>
+    </nav>
