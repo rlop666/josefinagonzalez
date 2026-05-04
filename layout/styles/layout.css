@@ -471,3 +471,9 @@ table a, #comments a{background-color:inherit;}
   } 
 
 }
+
+.titulo_web{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: normal;
+    font-weight: normal;
+}
