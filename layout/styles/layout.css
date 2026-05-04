@@ -402,6 +402,7 @@ table a, #comments a{background-color:inherit;}
 	font-size: 1.5em;
 	text-align: center;
 	line-height: 100%;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 .alineacion_izquierda{
@@ -476,4 +477,5 @@ table a, #comments a{background-color:inherit;}
     font-family: Georgia, "Times New Roman", Times, serif;
     line-height: normal;
     font-weight: normal;
+	font-size: 26px;
 }
