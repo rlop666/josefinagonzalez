@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+{% include header.html %}
+<body id="top">
+<!-- CABECERA -->
+{% include cabecera.html %}
+<!-- MENU -->
+{% include menu.html %}
+
+{{ content }}
+
+<!-- FOOTER -->
+{% include footer.html %}
+
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a> 
+<!-- JAVASCRIPTS -->
+<script src="{{ '/layout/scripts/jquery.min.js' | relative_url }}"></script>
+<script src="{{ '/layout/scripts/jquery.backtotop.js' | relative_url }}"></script>
+<script src="{{ '/layout/scripts/jquery.mobilemenu.js' | relative_url }}"></script>
+<script src="{{ '/layout/scripts/funciones.js' | relative_url }}"></script>
+
+<script>
+  function llamaReady(){
+    functionReady();
+  }
+  $(document).ready(function(){
+    llamaReady();
+  });
+
+  $("#mostrar").click(function(){
+    $("#sabermas").toggle(300);
+  });
+
+  $("#mostrarmasmas").click(function(){
+    $("#sabermasmas").toggle(300);
+  });
+</script>
+</body>
+</html>

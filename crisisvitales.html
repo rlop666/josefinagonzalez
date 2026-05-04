@@ -1,41 +1,8 @@
-<!DOCTYPE html>
-<!--
-Template Name: Orizon
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
--->
-<html>
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114683858-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+layout: default
+title: "Josefina González | Crisis vitales"
+---
 
-  gtag('config', 'UA-114683858-1');
-</script>
-
-<title>Josefina González | Crisis vitales</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="./layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-</head>
-<body id="top">
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- CABECERA -->
-<div w3-include-html="./cabecera.html"></div>
-<!-- FIN CABECERA -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- MENU -->
-<div w3-include-html="./menu.html"></div>
-<!-- FIN MENU -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -78,7 +45,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <!-- ################################################################################################ -->
     <!-- MENU LATERAL -->
-    <div w3-include-html="./menulateral.html"></div>
+    {% include menulateral.html %}
     <!-- FIN MENU LATERAL -->
 
 
@@ -100,32 +67,3 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-
-<!-- FOOTER -->
-<div w3-include-html="./footer.html"></div>
-<!-- FIN FOOTER -->
-
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a> 
-<!-- JAVASCRIPTS -->
-<script src="./layout/scripts/jquery.min.js"></script>
-<script src="./layout/scripts/jquery.backtotop.js"></script>
-<script src="./layout/scripts/jquery.mobilemenu.js"></script>
-<script src="layout/scripts/w3.js"></script>
-<script src="layout/scripts/menumaker.js"></script>
-<script src="layout/scripts/funciones.js"></script>
-
-<script>
-//$(document).ready(function(){
-  function llamaReady(){
-    functionReady();
-  }
-//});
-</script>
-<script>
-  w3.includeHTML(llamaReady);
-</script>
-</body>
-</html>

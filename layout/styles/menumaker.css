@@ -1,4 +1,4 @@
-/*@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 #cssmenu,
 #cssmenu ul,
 #cssmenu ul li,
@@ -29,8 +29,7 @@
 }
 #cssmenu {
   font-family: Montserrat, sans-serif;
-  background: #333333;
-  background-image: url(../../images/stucco.jpg);
+  background: #93C0C5;
 }
 #cssmenu > ul > li {
   float: left;
@@ -54,12 +53,12 @@
   font-size: 12px;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #888888;
+  color: #333333;
   font-weight: 700;
   text-transform: uppercase;
 }
 #cssmenu > ul > li:hover > a {
-  color: #ffffff;
+  color: #333333;
 }
 #cssmenu > ul > li.has-sub > a {
   padding-right: 30px;
@@ -71,7 +70,7 @@
   width: 8px;
   height: 2px;
   display: block;
-  background: #888888;
+  background: #333333;
   content: '';
 }
 #cssmenu > ul > li.has-sub > a:before {
@@ -81,7 +80,7 @@
   display: block;
   width: 2px;
   height: 8px;
-  background: #888888;
+  background: #333333;
   content: '';
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
@@ -130,12 +129,12 @@
   border-bottom: 1px solid rgba(150, 150, 150, 0.15);
   padding: 11px 15px;
   width: 250px;
-  font-size: 12px;
+//  font-size: 12px;
   text-decoration: none;
-  color: #ffffff;
+  color: #444;
   font-weight: 400;
-  background: #333333;
-  background-color: rgba(147,192,197,.8);
+  background: #efefef;
+  background-color: rgba(229,229,229,.9);
 }
 #cssmenu ul ul li:last-child > a,
 #cssmenu ul ul li.last-item > a {
@@ -143,7 +142,7 @@
 }
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li a:hover {
-  color: #ffffff;
+  color: #111;
 }
 #cssmenu ul ul li.has-sub > a:after {
   position: absolute;
@@ -152,7 +151,7 @@
   width: 8px;
   height: 2px;
   display: block;
-  background: #dddddd;
+  background: #888888;
   content: '';
 }
 #cssmenu.align-right ul ul li.has-sub > a:after {
@@ -166,7 +165,7 @@
   display: block;
   width: 2px;
   height: 8px;
-  background: #dddddd;
+  background: #888888;
   content: '';
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
@@ -215,7 +214,7 @@
   padding-left: 35px;
 }
 #cssmenu.small-screen ul ul li a {
-  color: #888888;
+  color: #333333;
   background: none;
 }
 #cssmenu.small-screen ul ul li:hover > a,
