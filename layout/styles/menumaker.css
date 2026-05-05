@@ -301,7 +301,7 @@
   cursor: pointer;
 }
 #cssmenu.small-screen .submenu-button.submenu-opened {
-//  background: #262626;
+/*  background: #262626;*/
 }
 #cssmenu.small-screen ul ul .submenu-button {
   height: 34px;
