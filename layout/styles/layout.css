@@ -374,7 +374,7 @@ table a, #comments a{background-color:inherit;}
 }
 
 .imagen_index{
-	background-image:url('../../images/salaespera.jpg');
+	background-image:url('../../images/salaespera.webp');
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
