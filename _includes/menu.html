@@ -34,6 +34,7 @@
 <div id="barraaceptacion" style="display: none;">
     <div class="inner">
         Utilizamos cookies propias y de terceros para obtener datos estadísticos de la navegación de nuestros usuarios y mejorar nuestros servicios. 
+        <br>
         <button class="btn-accept" id="accept-cookies"><b>ACEPTAR TODAS</b></button> | 
         <button class="btn-reject" id="reject-cookies"><b>RECHAZAR</b></button> | 
         <a href="{{ '/politicacookies' | relative_url }}" target="_blank" class="info">Más información</a>
@@ -44,12 +45,12 @@
 <!--div id="cookie-banner" style="position: fixed; bottom: 0; width: 100%; background: #222; color: #fff; padding: 20px; text-align: center; z-index: 1000; display: none;">
     <p>Utilizamos cookies propias y de terceros para obtener datos estadísticos de la navegación de nuestros usuarios y mejorar nuestros servicios. 
        <a href="{{ '/politicacookies' | relative_url }}" style="color: #00d1b2;">Leer más</a></p>
-    <button id="accept-cookiesaa" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; cursor: pointer; margin-right: 10px;">Aceptar todas</button>
-    <button id="reject-cookiesaa" style="background: #f44336; color: white; border: none; padding: 10px 20px; cursor: pointer;">Rechazar</button>
+    <button id="accept-cookies" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; cursor: pointer; margin-right: 10px;">Aceptar todas</button>
+    <button id="reject-cookies" style="background: #f44336; color: white; border: none; padding: 10px 20px; cursor: pointer;">Rechazar</button>
 </div-->
 
 <script>
-    const banner = document.getElementById('cookie-banner');
+    const banner = document.getElementById('barraaceptacion');
     const acceptBtn = document.getElementById('accept-cookies');
     const rejectBtn = document.getElementById('reject-cookies');
 
@@ -95,11 +96,13 @@
     .btn-accept { background-color: #4CAF50; color: white;     padding: 10px 20px;
     cursor: pointer;
     border: none;
-    border-radius: 5px;}
+    border-radius: 5px;
+    display: inline;}
     .btn-reject { background-color: #f44336; color: white;     padding: 10px 20px;
     cursor: pointer;
     border: none;
-    border-radius: 5px;}
+    border-radius: 5px;
+    display: inline;}
 
 	#barraaceptacion {
     display:none;
