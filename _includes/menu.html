@@ -33,20 +33,20 @@
 <!--//BLOQUE COOKIES-->
 <div id="barraaceptacion" style="display: none;">
     <div class="inner">
-        Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real 
-        Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.
-        <a href="javascript:void(0);" class="ok" onclick="PonerCookie();"><b>OK</b></a> | 
+        Utilizamos cookies propias y de terceros para obtener datos estadísticos de la navegación de nuestros usuarios y mejorar nuestros servicios. 
+        <a id="accept-cookies" class="ok"><b>ACEPTAR TODAS</b></a> | 
+        <a id="reject-cookies" class=""><b>RECHAZAR</b></a> | 
         <a href="{{ '/politicacookies' | relative_url }}" target="_blank" class="info">Más información</a>
     </div>
 </div>
 
 <!-- Banner de Cookies -->
-<div id="cookie-banner" style="position: fixed; bottom: 0; width: 100%; background: #222; color: #fff; padding: 20px; text-align: center; z-index: 1000; display: none;">
+<!--div id="cookie-banner" style="position: fixed; bottom: 0; width: 100%; background: #222; color: #fff; padding: 20px; text-align: center; z-index: 1000; display: none;">
     <p>Utilizamos cookies propias y de terceros para obtener datos estadísticos de la navegación de nuestros usuarios y mejorar nuestros servicios. 
        <a href="{{ '/politicacookies' | relative_url }}" style="color: #00d1b2;">Leer más</a></p>
-    <button id="accept-cookies" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; cursor: pointer; margin-right: 10px;">Aceptar todas</button>
-    <button id="reject-cookies" style="background: #f44336; color: white; border: none; padding: 10px 20px; cursor: pointer;">Rechazar</button>
-</div>
+    <button id="accept-cookiesaa" style="background: #4CAF50; color: white; border: none; padding: 10px 20px; cursor: pointer; margin-right: 10px;">Aceptar todas</button>
+    <button id="reject-cookiesaa" style="background: #f44336; color: white; border: none; padding: 10px 20px; cursor: pointer;">Rechazar</button>
+</div-->
 
 <script>
     const banner = document.getElementById('cookie-banner');
@@ -63,7 +63,7 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'UA-XXXXX-Y');
+        gtag('config', 'UA-114683858-1');
     }
 
     // Comprobar si ya existe una decisión previa
