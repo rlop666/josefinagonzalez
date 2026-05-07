@@ -23,9 +23,9 @@ function functionReady(){
   theMinutes = (update.getMinutes()<10?'0':'') + update.getMinutes();
   document.getElementById("fechamodificacion").innerHTML = "Ultima modificación: " + theDate + "/" + theMonth + "/" + theYear + " " + theHour + ":" + theMinutes;
 	
-  if(getCookie('tiendaaviso')!="1"){
-    document.getElementById("barraaceptacion").style.display="block";
-}	
+ // if(getCookie('tiendaaviso')!="1"){
+ //   document.getElementById("barraaceptacion").style.display="block";
+//}	
 }
 
 function getCookie(c_name){
