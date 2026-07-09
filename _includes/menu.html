@@ -1,7 +1,7 @@
 <div id="cssmenu" class="elmenu">
 	<ul>
     <li><a href="{{ '/index' | relative_url }}">Inicio</a></li>
-	<li><a href="{{ '/servicios' | relative_url }}">Cómo puedo ayudarte</a>
+	<li><a href="{{ '/como-puedo-ayudarte' | relative_url }}">Cómo puedo ayudarte</a>
 		<ul>
 			{% for grupo in site.data.categorias_ayuda %}
 			<li><a href="{{ '/servicios' | relative_url }}#{{ grupo.key }}">{{ grupo.label }}</a>
