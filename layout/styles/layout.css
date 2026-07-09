@@ -480,3 +480,23 @@ table a, #comments a{background-color:inherit;}
 	font-size: 3rem;
 	margin: 15px 0 15px 0;
 }
+
+.titulo_web a{
+	color:#3f4a42;
+	text-decoration:none;
+}
+
+.subtitulo_web{
+	font-family: 'Inter', -apple-system, "Segoe UI", Arial, sans-serif;
+	font-size: 0.95rem;
+	color: #7a7a72;
+	letter-spacing: 0.2px;
+	margin: 0 0 6px 0;
+}
+
+.colegiada_web{
+	font-family: 'Inter', -apple-system, "Segoe UI", Arial, sans-serif;
+	font-size: 0.78rem;
+	color: #8a9aa5;
+	margin: 0 0 10px 0;
+}
