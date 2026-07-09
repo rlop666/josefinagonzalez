@@ -1,0 +1,8 @@
+- key: estado-animo
+  label: "Estado de ánimo y bienestar emocional"
+- key: trauma
+  label: "Trauma"
+- key: relaciones
+  label: "Relaciones"
+- key: funcionamiento
+  label: "Funcionamiento personal"
