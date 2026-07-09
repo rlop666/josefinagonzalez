@@ -39,7 +39,7 @@ google_analytics:
 
 # Your website URL (e.g. http://akshayagarwal007.github.io)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: "https://josefinagonzalez.es"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -80,3 +80,20 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - "Seminario de conducta alimentaria.pdf"
+
+# Quita del sitemap.xml los archivos estáticos que no son páginas de contenido
+# (siguen sirviéndose con normalidad, solo no se listan como URLs indexables)
+defaults:
+  - scope:
+      path: "images"
+    values:
+      sitemap: false
+  - scope:
+      path: "layout"
+    values:
+      sitemap: false
+  - scope:
+      path: "404.html"
+    values:
+      sitemap: false
