@@ -15,7 +15,11 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <meta name="description" content="Psicóloga adultos. Ansiedad. Depresión. Autoestima. Perinatal, depresión postparto, fobias de impulsión. Trauma complejo.  Gestión emocional. Procesos de duelo. Habilidades sociales. Rupturas y dependencia. Problemas de familia. TEPT. Trauma complejo. Trauma invisible. Autoboicot.">  
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Psicóloga sanitaria en Madrid especializada en adultos, perinatal y familia. Ansiedad, depresión, autoestima, trauma y duelo.{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Psicóloga sanitaria en Madrid especializada en adultos, perinatal y familia.{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
   <link href="{{ '/layout/styles/layout.css' | relative_url }}" rel="stylesheet" type="text/css" media="all">
   <link href="{{ '/layout/styles/menumaker.css' | relative_url }}" rel="stylesheet" type="text/css" media="all">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/images/favicon-32x32.png' | relative_url }}">
