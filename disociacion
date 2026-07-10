@@ -1,0 +1,56 @@
+---
+layout: default
+title: "Josefina González | Disociación"
+description: "Terapia especializada en disociación y trauma complejo con EMDR. Entiende tus síntomas y recupera continuidad"
+redirect_from:
+  - /luzdegas.html
+categoria: trauma
+orden: 2
+---
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content three_quarter first"> 
+      <!-- ################################################################################################ -->
+      <p class="titulo_articulo">Disociación</p> 
+      
+<p>Si alguna vez has sentido que estabas "fuera de tu cuerpo", que las cosas a tu alrededor no parecían reales, o que de pronto no recordabas cómo llegaste a un sitio, es posible que hayas experimentado disociación. No significa que estés "loco" ni que algo esté roto en ti.</p>
+<p>La disociación es una desconexión temporal entre partes de la experiencia que normalmente van juntas: lo que pensamos, lo que sentimos, lo que recordamos y lo que percibimos como "yo".</p>
+<p>Puede ser leve, como quedarte tan absorto conduciendo que no recuerdas el trayecto,  o mucho más intensa: sentir que tu cuerpo no te pertenece (despersonalización), que el mundo parece de mentira (desrealización), o tener lagunas de memoria para las que no hay explicación.</p>
+<p>No es un fallo de carácter ni falta de atención. Es algo que el cerebro hace de forma automática, casi siempre porque en algún momento, a menudo durante una experiencia difícil o traumática, resultó útil desconectar para poder soportarla.</p>
+<p>Cuando alguien vive un trauma grave o repetido, especialmente en la infancia, llamado Trauma complejo, la mente puede "dividir" la experiencia en distintas partes en lugar de integrarla en una sola historia coherente.</p>
+<p>Que una parte de ti reaccione como si el peligro siguiera presente, mientras otra parte sigue con su vida, no es una contradicción ni una señal de que estés "fingiendo" o "exagerando". Es la huella lógica de haber tenido que sobrevivir a algo para lo que nadie está preparado. El trabajo terapéutico no consiste en eliminar esas partes, sino en ayudarlas, poco a poco, a comunicarse entre sí.</p>
+<p>El tratamiento para la disociación es mas lento que otros. Conlleva: Estabilización, Procesamiento e Integración.</p>
+<p>Tratamiento con EMDR. No consiste en "forzar" a la persona a enfrentarse a lo que vivió. No El primer paso es ayudarla a sentirse más segura, desarrollar recursos para regularse emocionalmente y comprender cómo funciona esa desconexión.</p>
+<p>Solo cuando la persona está preparada, el tratamiento permite que las experiencias que quedaron sin integrar puedan procesarse de una forma gradual y adaptada a su capacidad, favoreciendo que el cerebro las incorpore como recuerdos del pasado y disminuya la necesidad de recurrir a la disociación como mecanismo de protección.</p>
+<p>El objetivo no es eliminar una defensa de forma brusca, sino ayudar a que la persona pueda sentirse cada vez más presente, conectada consigo misma y con su vida cotidiana.</p>
+<p>Las defensas no se combaten, se acogen, se comprenden y se transforman cuando la persona dispone de recursos suficientes.</p>
+
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+     <!-- MENU LATERAL -->
+    {% include menulateral.html %}
+    <!-- FIN MENU LATERAL -->
+
+
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4 bgded">
+  <div class="overlay">
+    <section id="footercta"> 
+      <br>
+    </section>
+  </div>
+</div>
