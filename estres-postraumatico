@@ -1,0 +1,57 @@
+---
+layout: default
+title: "Josefina González | Estrés postraumático TEPT"
+description: "Terapia Estrés postraumático TEPT en Madrid con Josefina González."
+categoria: trauma
+orden: 1
+---
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content three_quarter first"> 
+      <!-- ################################################################################################ -->
+      <p class="titulo_articulo">Estrés postraumático TEPT</p> 
+
+      <p>El trastorno de estrés postraumático puede aparecer después de haber vivido o presenciado una experiencia muy amenazante o traumática, como un accidente grave, una agresión, un abuso, una catástrofe o cualquier situación en la que la persona haya sentido que su vida o su integridad estaban en peligro.</p>
+      <p>Aunque el acontecimiento haya terminado, el cerebro y el cuerpo pueden seguir reaccionando como si el peligro continuara presente. Es frecuente revivir el recuerdo de forma involuntaria, tener pesadillas, evitar personas o lugares que recuerdan lo sucedido, sentirse constantemente en alerta, sobresaltarse con facilidad o experimentar una intensa ansiedad.</p>
+      <p>Estos síntomas no son una señal de debilidad. Son la consecuencia de que la experiencia traumática no ha podido procesarse e integrarse adecuadamente.</p>
+      <p>Cuando vivimos algo que supera nuestra capacidad de hacerle frente, tres zonas del cerebro dejan de trabajar como deberían: la amígdala, que detecta el peligro, se queda encendida; el hipocampo, que normalmente coloca los recuerdos en el tiempo ("esto pasó y ya terminó"), no logra hacerlo bien; y la corteza prefrontal, que frena la respuesta de miedo, pierde fuerza. El resultado es un recuerdo que no se archiva como pasado. Se sigue viviendo como presente.</p>
+      <p>Los síntomas pueden ser:</p>
+      <ul>
+        <li>Intrusiones: recuerdos que aparecen sin avisar, pesadillas, malestar físico al toparse con algo que recuerda al suceso.</li>
+        <li>Evitación: de lugares, personas o incluso pensamientos ligados al trauma.</li>
+        <li>Cambios negativos en el pensamiento y el ánimo: culpa, ideas distorsionadas sobre lo ocurrido, sensación de estar apagado por dentro.</li>
+        <li>Alteración de la activación: estar siempre alerta, sobresaltarse con facilidad, irritabilidad.</li>
+      </ul>
+      <p>Stephen Porges en su teoría polivagal describe cómo el sistema nervioso autónomo responde a la amenaza en una jerarquía de tres estados: primero intenta mantenerse en conexión social y calma (activación del vago ventral); si eso no basta, pasa a movilizarse en lucha o huida (activación simpática); y si tampoco es posible escapar, se apaga en un estado de bloqueo o desconexión (activación del vago dorsal). En el TEPT, este sistema de defensa queda descalibrado: la persona puede quedar atrapada en un patrón de hiperactivación —ansiedad, alerta constante, como si el peligro siguiera presente— o de hipoactivación —bloqueo, desconexión, sensación de estar "apagada"—, y ambos patrones tienden a repetirse después ante estímulos que ya no suponen una amenaza real.</p>
+      <p>Tratamiento con EMDR</p>
+      <p>EMDR ayuda al cerebro a procesar esos recuerdos que han quedado almacenados de forma disfuncional y a integrarlos en redes de memoria mas adaptativas, perdiendo su carga emocional y dejando de activar las mismas respuestas de malestar. Como consecuencia, la persona puede recordar lo ocurrido sin revivirlo con la misma intensidad emocional.</p>
+
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- MENU LATERAL -->
+    {% include menulateral.html %}
+    <!-- FIN MENU LATERAL -->
+
+
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4 bgded">
+  <div class="overlay">
+    <section id="footercta"> 
+      <br>
+    </section>
+  </div>
+</div>
