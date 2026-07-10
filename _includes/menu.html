@@ -4,7 +4,8 @@
 	<li><a href="{{ '/como-puedo-ayudarte' | relative_url }}">Cómo puedo ayudarte</a>
 		<ul>
 			{% for grupo in site.data.categorias_ayuda %}
-			<li><a href="{{ '/servicios' | relative_url }}#{{ grupo.key }}">{{ grupo.label }}</a>
+			<!--li><a href="{{ '/servicios' | relative_url }}#{{ grupo.key }}">{{ grupo.label }}</a-->
+			<li><a href="#">{{ grupo.label }}</a>
 				<ul>
 					{% assign temas = site.pages | where: "categoria", grupo.key | sort: "orden" %}
 					{% for tema in temas %}
