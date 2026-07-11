@@ -231,7 +231,7 @@ label span{color:#FF0000; background-color:inherit;}
 .row3{color:#444444; background-color:#FFFFFF; border-color:#FFFFFF;}
 .row4{color:#FFFFFF; background-color:inherit;}
 .row5{color:#dedede; background-color:#282828;}
-.row6, .row6 a{color:#888888; background-color:#2F2F2F;}
+.row6, .row6 a{color:#dedede; background-color:#2F2F2F;}
 
 
 /* Header */
