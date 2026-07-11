@@ -489,7 +489,7 @@ table a, #comments a{background-color:inherit;}
 .subtitulo_web{
 	font-family: 'Inter', -apple-system, "Segoe UI", Arial, sans-serif;
 	font-size: 1rem;
-	color: #7a7a72;
+	color: #3d3d3d;
 	letter-spacing: 0.2px;
 	margin: 0 0 6px 0;
 }
@@ -497,21 +497,32 @@ table a, #comments a{background-color:inherit;}
 .colegiada_web{
 	font-family: 'Inter', -apple-system, "Segoe UI", Arial, sans-serif;
 	font-size: 1rem;
-	color: #8a9aa5;
+	color: #41484d;
 	margin: 0 0 10px 0;
 }
 
 /* Banner aceptación de coockies */
-    .btn-accept { background-color: #4CAF50; color: white;     padding: 10px 20px;
+.btn-accept { 
+    background-color: #2E7D32; 
+    color: white;     
+    padding: 10px 20px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    display: inline;}
-    .btn-reject { background-color: #f44336; color: white;     padding: 10px 20px;
+    display: inline;
+    font-weight: bold; 
+}
+
+.btn-reject { 
+    background-color: #C62828; 
+    color: white;     
+    padding: 10px 20px;
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    display: inline;}
+    display: inline;
+    font-weight: bold;
+}
 
 	#barraaceptacion {
     display:none;
@@ -546,6 +557,6 @@ table a, #comments a{background-color:inherit;}
  
 .inner a.info {
     padding-left:5px;
-    text-decoration:none;
-    color:#faff00;
+    text-decoration: underline;
+    color:#ffffff;
 }
