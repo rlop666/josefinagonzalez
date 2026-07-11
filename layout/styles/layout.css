@@ -227,8 +227,8 @@ label span{color:#FF0000; background-color:inherit;}
 .row0, .row0 a{color:#242424; background-color:#FFFFFF;}
 .row0{border-color:#D7D7D7;}
 .row1, .row1 a{color:#242424; background-color:#FFFFFF;}
-.row2{color:#888; background-color:#FFFFFF; border-color:#FFFFFF;}
-.row3{color:#888; background-color:#FFFFFF; border-color:#FFFFFF;}
+.row2{color:#444444; background-color:#FFFFFF; border-color:#FFFFFF;}
+.row3{color:#444444; background-color:#FFFFFF; border-color:#FFFFFF;}
 .row4{color:#FFFFFF; background-color:inherit;}
 .row5{color:#888888; background-color:#282828;}
 .row6, .row6 a{color:#888888; background-color:#2F2F2F;}
