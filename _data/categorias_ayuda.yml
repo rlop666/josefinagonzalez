@@ -2,6 +2,7 @@
   label: "Estado de ánimo y bienestar emocional"
 - key: trauma
   label: "Trauma"
+  texto_final: "Adultos que sufrieron ASI"
 - key: relaciones
   label: "Relaciones"
 
