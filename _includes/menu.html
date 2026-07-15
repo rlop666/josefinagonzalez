@@ -11,6 +11,9 @@
 					{% for tema in temas %}
 					<li><a href="{{ tema.url | relative_url }}">{{ tema.title | split: "| " | last }}</a></li>
 					{% endfor %}
+					{% if grupo.key == 'trauma' %}
+					<li><span class="menu-texto-fijo">Adultos que sufrieron ASI</span></li>
+					{% endif %}
 				</ul>
 			</li>
 			{% endfor %}
