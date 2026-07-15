@@ -9,7 +9,7 @@
 				<ul>
 					{% assign temas = site.pages | where: "categoria", grupo.key | sort: "orden" %}
 					{% for tema in temas %}
-					<li><a href="{{ tema.url | relative_url }}">{{ tema.title | split: "| " | last }}</a>grupo.key</li>
+					<li><a href="{{ tema.url | relative_url }}">{{ tema.title | split: "| " | last }}</a>{{grupo.key}}</li>
 					{% endfor %}
 					{% if grupo.key == "trauma" %}
 					<li><span class="menu-texto-fijo" style="display: block; padding: 8px 15px; color: #666666; cursor: default;">Adultos que sufrieron ASI</span></li>
