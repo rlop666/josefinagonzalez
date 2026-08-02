@@ -44,8 +44,25 @@ img{width:auto; max-width:100%; height:auto; margin:0; padding:0; border:none; l
 /* Fonts
 --------------------------------------------------------------------------------------------------------------- */
 body, input, textarea, select{font-family:Verdana, Geneva, sans-serif;}
-h1, h2, h3, h4, h5, h6, .heading{font-family:Georgia, "Times New Roman", Times, serif;}
+h1, h4, h5, h6, .heading{font-family:Georgia, "Times New Roman", Times, serif;}
 
+h2 {
+    font-size: 24px !important;       /* Más pequeño que el H1 para marcar nivel */
+    line-height: 1.4 !important;
+    margin-top: 45px !important;      /* Gran espacio superior para separar bloques de contenido */
+    margin-bottom: 20px !important;   /* Espacio inferior controlado antes de los textos */
+    font-weight: 600 !important;
+    letter-spacing: -0.01em !important;
+}
+
+h3 {
+    font-size: 19px !important;       /* Claramente distinguible de un H2 y del texto base */
+    line-height: 1.4 !important;
+    margin-top: 30px !important;      /* Espacio superior para aislar cada pregunta */
+    margin-bottom: 12px !important;   /* Pegado a su respuesta correspondiente */
+    font-weight: 500 !important;
+    color: #444444 !important;         /* Tono un punto más suave para dar un acabado elegante */
+}
 
 /* Forms
 --------------------------------------------------------------------------------------------------------------- */
