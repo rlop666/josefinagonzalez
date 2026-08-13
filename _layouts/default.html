@@ -9,6 +9,11 @@
 
 {{ content }}
 
+<p class="fecha-articulo">
+  Última actualización:
+  {{ page.date | date: "%-d de %B de %Y" }}
+</p>
+  
 <!-- FOOTER -->
 {% include footer.html %}
 
