@@ -10,7 +10,7 @@
 {{ content }}
 
 {% if page.date %}
-  <div class="firma-autora"> 
+  <div class="firma-autora container clear"> 
     <p> Artículo escrito por <a href="{{ '/quien' | relative_url }}"><strong>Josefina González Calvo</strong></a>, Psicóloga General Sanitaria, colegiada nº M-27222 del Colegio Oficial de la Psicología de Madrid. Clínico EMDR, especializada en trauma y psicología perinatal, con enfoque sistémico. </p> 
     <p class="fecha-articulo">
       Última actualización: 
@@ -34,7 +34,14 @@
     </p>
   </div>
 {% endif %}
-  
+
+<div class="wrapper row4 bgded">
+  <div class="overlay">
+    <section id="footercta"> 
+      <br>
+    </section>
+  </div>
+</div>
 <!-- FOOTER -->
 {% include footer.html %}
 
