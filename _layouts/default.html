@@ -10,26 +10,29 @@
 {{ content }}
 
 {% if page.date %}
-<p class="fecha-articulo">
-  Última actualización: 
-  {{ page.date | date: "%-d" }} de 
-  {% assign mes_numero = page.date | date: "%m" | plus: 0 %}
-  {% case mes_numero %}
-    {% when 1 %}enero
-    {% when 2 %}febrero
-    {% when 3 %}marzo
-    {% when 4 %}abril
-    {% when 5 %}mayo
-    {% when 6 %}junio
-    {% when 7 %}julio
-    {% when 8 %}agosto
-    {% when 9 %}septiembre
-    {% when 10 %}octubre
-    {% when 11 %}noviembre
-    {% when 12 %}diciembre
-  {% endcase %}
-  de {{ page.date | date: "%Y" }}
-</p>
+  <div class="firma-autora"> 
+    <p> Artículo escrito por <a href="{{ '/quien' | relative_url }}"><strong>Josefina González Calvo</strong></a>, Psicóloga General Sanitaria, colegiada nº M-27222 del Colegio Oficial de la Psicología de Madrid. Clínico EMDR, especializada en trauma y psicología perinatal, con enfoque sistémico. </p> 
+    <p class="fecha-articulo">
+      Última actualización: 
+      {{ page.date | date: "%-d" }} de 
+      {% assign mes_numero = page.date | date: "%m" | plus: 0 %}
+      {% case mes_numero %}
+        {% when 1 %}enero
+        {% when 2 %}febrero
+        {% when 3 %}marzo
+        {% when 4 %}abril
+        {% when 5 %}mayo
+        {% when 6 %}junio
+        {% when 7 %}julio
+        {% when 8 %}agosto
+        {% when 9 %}septiembre
+        {% when 10 %}octubre
+        {% when 11 %}noviembre
+        {% when 12 %}diciembre
+      {% endcase %}
+      de {{ page.date | date: "%Y" }}
+    </p>
+  </div>
 {% endif %}
   
 <!-- FOOTER -->
