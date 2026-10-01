@@ -299,7 +299,7 @@ table a, #comments a{background-color:inherit;}
 /* Smartphone + Tablet
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:180px) and (max-width:750px) {
-	.imgl, .imgr, imgr2{display:inline-block; float:none; margin:0 0 10px 0;}
+	.imgl, .imgr, .imgr2{display:inline-block; float:none; margin:0 0 10px 0;}
 	.fl_left, .fl_right{display:block; float:none;}
 	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0; padding:0;}
 
